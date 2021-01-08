@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 20px;
+}
+#regform{
+  text-align: center;
+}
+input{
+  width: 30vw;
+  padding: 15px;
+  border: 0px;
+  background-color: #FBFCFC;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+#submitbtn{
+  width: 33.2vw;
+  padding: 15px;
+}
+#submitbtn:hover{
+  background-color: #ECF0F1;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  margin: 0;
+  font-size: 16px;
+  padding: 5px;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  text-align: left;
+  margin-left: 15px;
+}
+.user{
+    width: 50vw;
+    height: auto;
+    background-color: #FBFCFC;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+h1:hover{
+  cursor: pointer;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;   
+  }
+  .gridContainer.displayGrid {
+    display: none;
+  }
+  .gridItem {
+    padding: 5px;
+    font-size: 12px;
+    text-align:left;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+  }
+
+.deletebtn, .changebtn{
+  width: 100px;
+  border: none;
+  background-color:#EAF2F8;
+  font-family: 'Raleway', sans-serif;
+  padding: 5px;
+  margin-top: 20px; 
+}
+.deletebtn:hover, .changebtn:hover{
+  background-color: #A9CCE3 ;
+  cursor: pointer;
+}
