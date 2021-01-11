@@ -121,8 +121,6 @@ document.getElementById('city').addEventListener('keyup', () => {
 document.getElementById('regform').addEventListener('submit', (e) => {
     e.preventDefault()
 
-      
-
         let test = false;
         if(users.length == 0 || wantToChange == false){
 
@@ -328,8 +326,8 @@ const allnumeric = (input) => {
     return result
 }
 let changecolor = (validate, id) => {
-    if(validate == true)document.getElementById(id).style.backgroundColor =  "#FBFCFC";
-    else document.getElementById(id).style.backgroundColor = "#FFB8BD"
+    if(validate == true)document.getElementById(id).style.backgroundColor =  "#E7E7E7";
+    else document.getElementById(id).style.backgroundColor = "#FFDDDD";
 }
 function create_UUID(){
     var dt = new Date().getTime();

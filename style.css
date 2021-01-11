@@ -12,17 +12,17 @@ body{
 input{
   width: 30vw;
   padding: 15px;
-  border: 0px;
-  background-color: #FBFCFC;
+  border: none;
+  background-color: #E7E7E7;
   border-radius: 5px;
   font-family: 'Raleway', sans-serif;
 }
 #submitbtn{
-  width: 33.2vw;
+  width: 31.5vw;
   padding: 15px;
 }
 #submitbtn:hover{
-  background-color: #ECF0F1;
+  background-color: #E2E2E2;
 }
 h1{
   font-family: 'Raleway', sans-serif;
@@ -40,7 +40,7 @@ p{
 .user{
     width: 50vw;
     height: auto;
-    background-color: #FBFCFC;
+    background-color: #E7E7E7;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 10px;
